@@ -1,0 +1,77 @@
+(01)
+
+<html>
+
+<head>
+    <title>Arithmetic Operations</title>
+</head>
+
+<body>
+    <h1>Arithmetic Operations</h1>
+
+    <script>
+        // Create variables x and y and assign values
+        const x = 6;
+        const y = 4;
+
+        // Perform arithmetic operations
+        const sum = x + y;
+        const difference = x - y;
+        const product = x * y;
+        const division = x / y;
+
+        // Display the results
+        alert(`Sum: ${sum}\nDifference: ${difference}\nProduct: ${product}\nDivision: ${division}`);
+    </script>
+</body>
+
+</html>
+
+
+(02)
+
+<html>
+<head>
+    <title>Count from 5 to 15</title>
+</head>
+<body>
+    <h1>Count from 5 to 15 using PHP loop:</h1>
+    <?php
+    for ($i = 5; $i <= 15; $i++) {
+        echo $i . "<br>";
+    }
+    ?>
+</body>
+</html>
+
+(03)
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electricity Bill Calculator</title>
+</head>
+<body>
+    <h1>Electricity Bill Calculator</h1>
+
+    <?php
+    $units = 120;
+    $totalBill = 0;
+
+    if ($units <= 50) {
+        $totalBill = $units * 3.50;
+    } elseif ($units <= 100) {
+        
+        $totalBill = 50 * 3.50 + ($units - 50) * 4.00;
+    } elseif ($units <= 150) {
+      
+        $totalBill = 50 * 3.50 + 50 * 4.00 + ($units - 100) * 5.20;
+    } else {
+    
+        $totalBill = 50 * 3.50 + 50 * 4.00 + 50 * 5.20 + ($units - 150) * 6.50;
+    }
+
+    echo "Total Electricity Bill for $units units: Rs. " . number_format($totalBill, 2);
+    ?>
+</body>
+</html>

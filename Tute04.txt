@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h2><strong>Registration Form</strong></h2>
+    <form>
+        <labe1 for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"><br><br>
+
+        <labe2 for="lastName">Last Name:</labe2>
+        <input type="text" id="lastName" name="lastName"><br><br>
+
+        <labe3 for="mobileNumber">Mobile Number:</labe3>
+        <input type="text" id="mobileNumber" name="mobileNumber"><br><br>
+
+        <labe4>Gender:</labe4>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <labe5 for="email">Email:</labe5>
+        <input type="email" id="email" name="email"><br><br>
+
+        <labe5>Favorite Music:</labe5>
+        <input type="checkbox" id="pop" name="favoriteMusic" value="pop">
+        <label for="pop">POP</label>
+        <input type="checkbox" id="rock" name="favoriteMusic" value="rock">
+        <label for="rock">Rock</label>
+        <input type="checkbox" id="other" name="favoriteMusic" value="other">
+        <label for="other">Other</label><br><br>
+
+        <labe6 for="additionalDetails">Additional Details:</labe6><br>
+        <textarea id="additionalDetails" name="additionalDetails" rows="4" cols="50"></textarea><br><br>
+
+        <input type="checkbox" id="agreeTerms" name="agreeTerms" >
+        <label for="agreeTerms">I agree to the terms and conditions</label><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
+
+(02)
+
+

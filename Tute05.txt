@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <title>Quotes For Life</title>
+</head>
+
+<body>
+    <h1>Quotes For Life</h1>
+
+    <blockquote>
+        "You only live once,
+        but if you do it right,
+        once is enough"
+    </blockquote>
+
+    <img src="image-url.jpg" alt="Image with Quotes">
+</body>
+
+</html>

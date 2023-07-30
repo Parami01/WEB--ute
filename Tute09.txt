@@ -1,0 +1,63 @@
+(01)
+
+<html>
+
+<head>
+    <title>Day of the Week</title>
+</head>
+
+<body>
+    <h1>Enter a number from 1 to 7 to find the day of the week:</h1>
+
+    <script>
+        function findDayOfWeek() {
+            const userInput = parseInt(prompt("Enter a number from 1 to 7:"));
+
+            const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+            if (userInput >= 1 && userInput <= 7) {
+                const dayOfWeek = daysOfWeek[userInput - 1];
+                alert(`The day of the week is: ${dayOfWeek}`);
+            } else {
+                alert("Invalid input. Please enter a number between 1 and 7.");
+            }
+        }
+    </script>
+
+    <button onclick="findDayOfWeek()">Find Day</button>
+</body>
+
+</html>
+
+
+(02)
+
+
+  <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Confirm Box Example</title>
+</head>
+
+<body>
+    <h1>Click the "Google" button to continue</h1>
+
+    <button onclick="redirectToGoogle()">Google</button>
+
+    <script>
+        function redirectToGoogle() {
+            const confirmation = confirm("Do you want to visit Google?");
+
+            if (confirmation) {
+                 window.location.href = "https://www.google.com"; }
+             
+                       else {
+                alert("You decided to stay.");
+            }
+        }
+    </script>
+</body>
+
+</html>
+ 

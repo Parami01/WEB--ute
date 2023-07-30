@@ -1,0 +1,220 @@
+(01)
+
+<html>
+
+<head>
+    <title>Vehicles</title>
+</head>
+
+<body>
+    <h2>Vehicles</h2>
+    <ul>
+        <li>Car</li>
+        <li>Van</li>
+        <li>Bus</li>
+    </ul>
+</body>
+
+</html>
+
+
+(02)
+
+<html>
+
+<head>
+    <title>Fruits</title>
+</head>
+
+<body>
+    <h2>Fruits</h2>
+    <ol>
+        <li>apple</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+        <li>Banana</li>
+    </ol>
+</body>
+
+</html>
+
+
+(03)
+
+<html>
+
+<head>
+    <title>Sports</title>
+</head>
+
+<body>
+    <h2>Sports</h2>
+    <ol>
+        <li> Cricket</li>
+        <li> Football</li>
+        <li> Rugby</li>
+        <li> Athletics</li>
+    </ol>
+</body>
+
+</html>
+
+
+(04)
+
+<html>
+
+<head>
+    <title>Food Items</title>
+</head>
+
+<body>
+    <h2>Food Items</h2>
+    <dl>
+        <dt> Apple</dt>
+        <dd> A fruit</dd>
+
+        <dt> Cabbage</dt>
+        <dd> A Vegetable</dd>
+    </dl>
+</body>
+
+</html>
+
+
+(05)
+
+<html>
+
+<head>
+    <title>Roman Numerals</title>
+</head>
+
+<body>
+    <h2>Roman Numerals and Numbers</h2>
+    <ol>
+        <li>XII Twelve</li>
+        <li>XIII Thirteen</li>
+        <li>XIV Fourteen</li>
+        <li>XV Fifteen</li>
+    </ol>
+</body>
+
+</html>
+
+
+(06)
+
+<html>
+
+<head>
+    <title>Beverages</title>
+</head>
+
+<body>
+    <h2>Beverages</h2>
+    <ol type="A">
+        <li> C. Tea</li>
+        <li> B. Milk</li>
+        <li> A. Coffee</li>
+    </ol>
+</body>
+
+</html>
+
+(07)
+
+<html>
+
+<head>
+    <title>Numbers</title>
+</head>
+
+<body>
+    <h2>Numbers</h2>
+    <ol reversed>
+        <li>Five</li>
+        <li>Four</li>
+        <li>Three</li>
+    </ol>
+</body>
+
+</html>
+
+
+(08)
+
+<html>
+
+<head>
+    <title>Football Teams</title>
+</head>
+
+<body>
+    <h2>Football Teams</h2>
+
+    <h3>I. Group A</h3>
+    <ul>
+        <li> I. Germany</li>
+        <li> II. France</li>
+        <li> III. Spain</li>
+    </ul>
+
+    <h3>II. Group B</h3>
+    <ul>
+        <li> I. Brazil</li>
+        <li> II. Argentina</li>
+        <li> III. Portugal</li>
+    </ul>
+
+    <h3>III. Group C</h3>
+    <ul>
+        <li> I. Italy</li>
+        <li> II. Netherland</li>
+        <li> III. England</li>
+    </ul>
+
+</body>
+
+</html>
+
+(09)
+
+
+<html>
+
+<head>
+    <title>Sports</title>
+</head>
+
+<body>
+    <h2>Sports</h2>
+
+    <ol>
+        <li>Cricket
+            <ul>
+                <li>A. T20</li>
+                <li>B. ODI</li>
+                <li>C. Test</li>
+            </ul>
+        </li>
+        <li>Football</li>
+        <li>Rugby</li>
+        <li>Athletics
+            <ul>
+                <li>I. Running events
+                    <ul>
+                        <li>a. 100m</li>
+                        <li>b. 200m</li>
+                        <li>c. 400m</li>
+                    </ul>
+                </li>
+                <li>II. Javelin Throw</li>
+            </ul>
+        </li>
+    </ol>
+
+</body>
+
+</html>
+
